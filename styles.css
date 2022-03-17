@@ -78,7 +78,7 @@ h1{
     color: white;
     padding: 10px 20px;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     border: none;
     border-radius: 8px;
     transition-duration: 0.4s;
@@ -115,7 +115,8 @@ h1{
 }
 .bigdata{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex:2;
 }
 .data{
     display:inline-block;
@@ -131,3 +132,85 @@ h1{
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+/*third styling*/
+
+.third{
+    padding-left: max(128px,20%);
+    padding-right: max(128px,20%);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #E5E7EB;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.third h3{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+}
+
+.quote p{
+    display: flex;
+    font-weight: bold;
+    justify-content: flex-end;
+}
+
+/*fourth styling*/
+
+.fourth{
+    padding-left: max(128px,20%);
+    padding-right: max(128px,20%);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.call{
+    display: flex;
+    flex: auto;
+    background-color: #3882F6;
+    color: white;
+    padding: 3%;
+    /*text-align: center;*/
+    font-size: 18px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+/*
+.box{
+    width: 500px;
+    
+}
+*/
+.call .button{
+    box-shadow:none;
+    background-color: #3882F6;
+    color: white;
+    border: 3px solid white;
+    height:fit-content;
+    align-self: center;
+}
+
+/*footer styling*/
+
+.footer{
+    padding-left: max(128px,20%);
+    padding-right: max(128px,20%);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:#1F2937; /*rgb(24, 39, 66);*/
+    color: white;
+    display: flex;
+    flex: 1 1 auto;
+    padding-left: max(128px,20%);
+    padding-right: max(128px,20%);
+    align-items: center;
+    justify-content: center;
+}
